@@ -15,8 +15,8 @@ function volume_sphere() {
 
 	let res = (4/3) * Math.PI * (input * input* input);
 
-    console.log(res);
-	volume.value = res;
+   let roundedres = res.toFixed(4);
+	volume.value = roundedres;
   
 } 
 
